@@ -3,8 +3,8 @@ title: "Bayeshrimp"
 author: "Jaber Belkhiria"
 date: "Nov 28, 2017"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r, echo=T}
@@ -525,7 +525,7 @@ b3 <- postm1.1$b3
 # Diagnostic !!!
 library(shinystan)
 options(shinystan.rstudio = TRUE)
-launch_shinystan(m1.1) # WOAAAAAA!!!!!!!!
+#launch_shinystan(m1.1) # WOAAAAAA!!!!!!!!
 #
 # extract Stan samples from posterior distribution of this reparameterized model
 post <- extract.samples(m1.1)
