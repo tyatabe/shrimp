@@ -1,0 +1,552 @@
+---
+title: "Bayeshrimp"
+author: "Jaber Belkhiria"
+date: "Nov 28, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r, echo=T}
+library(rmarkdown)
+library(Hmisc)
+library(psych)
+library(tableone)
+library(plyr)
+library(fitdistrplus)
+library(tm)
+library (ggmap)
+library(maps)
+library(sp)
+library(plyr)
+library(FactoMineR)
+library(devtools)
+library(tableone)
+library(fitdistrplus)
+library(epiDisplay)
+library(rpart)
+library(epiDisplay)
+library(rethinking)
+library(rstan)
+library(loo)
+library(bayesplot)
+library(rstanarm) 
+#devtools::install_github("rstudio/rmarkdown")
+```
+
+```{r, echo=FALSE}
+options(encoding="latin1") # read french
+getwd()
+setwd("~/Box Sync/epi 208/for irina")
+#Importind data  set
+Data<- read.csv("data_1.csv",encoding="UTF8towcs")
+#Changed empty cells and IND to NA so R can understand it 
+Data[Data=="IND"]<-NA
+Data[Data==""]<-NA
+```
+
+#
+```{r, echo=T}
+#curious to see how many null variables I have
+Hmisc::describe(Data)
+
+#I looked at missing data and now I'm going to remove columns with a high number of missing (over 200)
+Data.c <- subset(Data, select = c(id,Longitude,Latitude,JLSA,A1,A3,A9,A10,B3,B4,C1,C2,C7,D2,D5,D6,F3,F5,G2,I14,I22,I23,I24,I25,H6,H8) )
+#curious to see how many null variables I have
+#Hmisc::describe(Data.c)
+write.csv(Data.c, file = "Data.c_1.csv")
+dc<- read.csv(file="Data.c_1.csv", header=TRUE, sep=",")
+```
+
+```{r, echo=T}
+#data cleaning
+dc$Latitud<-as.numeric(dc$Latitud)
+dc$Longitud<-as.numeric(dc$Longitud)
+#binary variables variables
+
+tmp<-as.character(dc$A1)
+tmp[tmp=="Si"]<-"1"
+dc$A1<-factor(tmp)
+
+tmp<-as.character(dc$A3)
+tmp[tmp=="Si"]<-"1"
+dc$A3<-factor(tmp)
+
+tmp<-as.character(dc$A9)
+tmp[tmp=="Si"]<-"1"
+dc$A9<-factor(tmp)
+
+tmp<-as.character(dc$B3)
+tmp[tmp=="Si"]<-"1"
+dc$B3<-factor(tmp)
+
+tmp<-as.character(dc$B4)
+tmp[tmp=="Si"]<-"1"
+dc$B4<-factor(tmp)
+
+tmp<-as.character(dc$C1)
+tmp[tmp=="Si"]<-"1"
+dc$C1<-factor(tmp)
+
+tmp<-as.character(dc$C2)
+tmp[tmp=="Si"]<-"1"
+dc$C2<-factor(tmp)
+
+tmp<-as.character(dc$D2)
+tmp[tmp=="Si"]<-"1"
+dc$D2<-factor(tmp)
+
+tmp<-as.character(dc$D5)
+tmp[tmp=="Si"]<-"1"
+dc$D5<-factor(tmp)
+
+tmp<-as.character(dc$I14)
+tmp[tmp=="Si"]<-"1"
+dc$I14<-factor(tmp)
+
+tmp<-as.character(dc$I22)
+tmp[tmp=="Si"]<-"1"
+dc$I22<-factor(tmp)
+
+tmp<-as.character(dc$I23)
+tmp[tmp=="Si"]<-"1"
+dc$I23<-factor(tmp)
+
+tmp<-as.character(dc$I24)
+tmp[tmp=="Si"]<-"1"
+dc$I24<-factor(tmp)
+
+tmp<-as.character(dc$I25)
+tmp[tmp=="Si"]<-"1"
+dc$I25<-factor(tmp)
+
+tmp<-as.character(dc$H6)
+tmp[tmp=="Si"]<-"1"
+dc$H6<-factor(tmp)
+
+#Continuous
+dc$F3[dc$F3==1616]<-16
+dc$F5[dc$F5==500]<-5
+
+tmp<-as.character(dc$F5)
+tmp[tmp=="7.5/M2"]<-"7.5"
+tmp[tmp=="10/M2"]<-"10"
+dc$F5<-as.numeric(tmp)
+
+tmp<-as.character(dc$G2)
+tmp[tmp=="2 a?os"]<-"2"
+tmp[tmp=="17. A?os"]<-"17"
+tmp[tmp=="21. A?os"]<-"21"
+dc$G2<-as.numeric(tmp)
+
+#fixing cATEGORICAL VARIABLES 
+levels(dc$A9)
+levels(dc$A9) <- c("0", "1","2", "3")
+#low levels thus I had to collapse 0 and 2
+levels(dc$A9) <- c("0", "1","0", "2")
+
+levels(dc$A10)
+levels(dc$A10) <- c("0", "1","2", "3")
+#low levels thus I had to collapse 0 and 2
+levels(dc$A10) <- c("0", "1","0", "2")
+
+levels(dc$D6)
+levels(dc$D6) <- c("4","2","0","0","3","2","2","2","2","2","0","1","2")
+levels(dc$C7)
+levels(dc$C7) <- c("1", "0", "0","0", "0","0","2","0", "0")
+
+dc$F3[dc$F3==1616]<-16
+
+dc$F5[dc$F5==500]<-5
+
+dc$JSLA<-as.factor(dc$JLSA)
+levels(dc$JLSA)
+#############
+# Mapping
+dc$H6<- factor(dc$H6, labels = c("Negative","Positive","Not available"),exclude=NULL)
+dc_clean<- subset(dc, Latitude > 0)
+Positive= subset(dc_clean,H6 == 'Positive')
+Negative= subset(dc_clean,H6== 'Negative')
+Not_available= subset(dc_clean,H6== 'Not available')
+
+dc_clean$H6
+levels(dc_clean$H6)
+```
+
+#
+```{r, echo=F}
+map<-qmap(location = c(-108.61083984375,24.146753594703075),zoom=7, legend = 'topright')
+map +geom_point(aes(x = Longitude, y = Latitude,colour =H6),size=3,alpha=0.5, data = dc_clean,name="farms",exclude=NULL )+
+  geom_point()+ scale_color_manual(values = c("Positive" = 'red','Negative' = 'green',"Not available"= "blue"))
+```
+
+#A quick stacked bar plot to see sample vary per year and per test result (positive/ negative)
+```{r, echo=F}
+#now I'm going to eliminate row without outcome and see what would happen
+dc1 <- dc[!is.na(dc$H6), ]
+
+#Checking df now
+Hmisc::describe(dc1)
+
+#colinearity
+#pairs(dc1)
+```
+#A quick stacked bar plot to see sample vary per year and per test result (positive/ negative)
+```{r, echo=F}
+#Creating a table one 
+## List numerically coded categorical variables
+factorVars <- c('JLSA','A1','A3','A9','A10','B3','B4','C1','C2','C7','D5','D6','I14','I22','I23','I24','I25')
+
+## Create a variable list. Use dput(names(pbc))
+vars <- c('JLSA','A1','A3','A9','A10','B3','B4','C1','C2','C7','D5','D6','I14','I22','I23','I24','I25',"F3","F5","G2")
+## Create Table 1 stratified by H6 (omit strata argument for overall table)
+library(tableone)
+tableOne <- CreateTableOne(vars = vars, strata = "H6", data = dc1, factorVars = factorVars)
+table2<- CreateTableOne(vars = vars, data = dc1, factorVars = factorVars)
+summary(table2$ContTable)
+tableOne
+tableOne$CatTable
+tableOne$ContTable
+summary(tableOne$ContTable)
+summary(tableOne$CatTable)
+```
+
+```{r, echo=F}
+               
+#Hist
+hist(dc1$F3,main='F3')
+hist(dc1$F5,main='F5')
+hist(dc1$G2,main='G2')
+#####log F3###
+log_F3<-log(dc1$F3)
+hist(log_F3,main='F3',breaks=15,prob=T)
+lines(density(log_F3, na.rm = T, from = 0, to =max(log_F3, na.rm = T) ))
+#####Log F%############
+log_F5<-log(dc1$F5)
+hist(log_F5,main='F5',breaks=15,prob=T)
+lines(density(log_F5, na.rm = T, from = 0, to =max(log_F5, na.rm = T) ))
+curve(dnorm(x, mean=mean(log_F5), sd=sd(log_F5)), add=TRUE)
+```
+#
+```{r, echo=F}
+library(fitdistrplus)
+#determining the distribution of my data
+descdist(as.numeric(na.omit(dc1$G2)), discrete = FALSE)
+```
+
+#Mapping positve and Negative samples over the whole time period.
+```{r, echo=F}
+#############Attempting a CART##############
+library(rpart)
+fit <- rpart(dc1$H6~., data=dc1[6:25],method="anova")
+printcp(fit) # display the results 
+plotcp(fit) # visualize cross-validation results
+summary(fit) # detailed summary of splits
+# create additional plots
+par(mfrow=c(1,2)) # two plots on one page
+rsq.rpart(fit) # visualize cross-validation results  
+dev.off()
+# plot tree
+plot(fit, uniform=TRUE,
+     main="Regression Tree for Mexus ")
+text(fit, use.n=TRUE, all=TRUE, cex=.8)
+
+# prune the tree
+pfit<- prune(fit, cp=0.01160389) # from cptable   
+
+# plot the pruned tree
+plot(pfit, uniform=TRUE,
+     main="Pruned Regression Tree for Mexus")
+text(pfit, use.n=TRUE, all=TRUE, cex=.8)
+
+#top variables I22,I25,D5,I24,A10,A9,B3
+#####################################################################
+##### selection of the best model and dealing with confounders #######
+######################################################################
+EJs<-dc1[,c("I22","I25","D5","I24","A10","A9","B3","H6")] 
+```
+
+
+#I was curious to do a staked bar plot and check how the AI subtypes are spread over the year
+```{r, echo=T}
+
+# maximum (saturated model) ###
+fit.full<-glm(EJs$H6~., data=EJs, family=binomial(link="logit"))
+summary(fit.full)
+lroc(fit.full, auc.coords=c(0.2,0.1),cex=0.8)$auc
+#logistic.display(fit.full)
+#vif(fit.full) #no multicollinearity obsv#
+step(fit.full, direction="backward")    ## use help(step) to have a look at it ##
+step(fit.full, direction="forward") 
+
+# Reduced model  ###
+fit.reduced<-glm(H6~ I22+D5+I24+A10+B3, data=EJs, family=binomial(link="logit"))
+summary(fit.reduced)
+lroc(fit.reduced, auc.coords=c(0.2,0.1),cex=0.8)$auc
+logistic.display(fit.reduced)
+```
+
+#Mapping Positive samples month per month
+```{r, echo=F}
+
+#######Bayesian model
+library(rethinking)
+#eliminating Na, appreantly this method doesn't work with missing data
+EJs.na<- na.omit(dc1[,c('JLSA',"I22","I25","D5","I24","A10","A9","B3","H6")] )
+
+#releveling JLSA
+levels(EJs.na$JLSA)
+tmp<-as.character(EJs.na$JLSA)
+tmp[tmp=="Ahome"]<-"1"
+tmp[tmp=="Angostura"]<-"2"
+tmp[tmp=="Eldorado"]<-"3"
+tmp[tmp=="Escuinapa"]<-"4"
+tmp[tmp=="Guasave Norte"]<-"5"
+tmp[tmp=="Guasave Sur"]<-"6"
+tmp[tmp=="Mazatlàn-San Ignacio"]<-"7"
+tmp[tmp=="Navolato Norte"]<-"8"
+tmp[tmp=="Navolato Sur"]<-"9"
+tmp[tmp=="Rosario"]<-"10"
+EJs.na$JLSA<-factor(tmp)
+#releveling H6
+tmp<-as.character(EJs.na$H6)
+tmp[tmp=="Negative"]<-"0"
+tmp[tmp=="Positive"]<-"1"
+EJs.na$H6<-factor(tmp)
+```
+
+```{r positive, fig.width=10, fig.height=10,echo=F}
+
+EJs.na<-data.frame(sapply(EJs.na, function(x) as.integer(as.character(x))))
+m.10.3<-rethinking::map(
+  alist(
+    H6~dbinom(1,p),
+    logit(p)<-a+b2*I22+b5*I25+bd*D5+b4*I24+ba*A10+b9*A9+b3*B3,
+    a~dnorm(0, 1) ,
+    b2~dnorm(0, 1) ,
+    b5~dnorm(0, 1) ,
+    bd~dnorm(0, 1) ,
+    b4~dnorm(0, 1) ,
+    ba~dnorm(0, 1) ,
+    b9~dnorm(0, 1) ,
+    b3~dnorm(0, 1) 
+  ),
+  data=EJs.na
+)
+precis(m.10.3)
+m10.3stan<-map2stan(m.10.3,data=EJs.na,chains=4,iter=1e4,warmup = 1000)
+precis(m10.3stan)
+plot(m10.3stan)
+
+#multilevel/ This one did not work so I had to go through stan
+start <- c(a = 0, b2 = 0, b3 = 0, b4 = 0, b9 = 0, b5 = 0, bd = 0, ba = 0)
+#
+#EJs.na$JLSA<-(as.numeric(EJs.na$JLSA))
+#EJs.na$H6<-(as.numeric(EJs.na$H6)-1)
+#EJs.na$I22<-(as.numeric(EJs.na$I22)-1)
+#EJs.na$I25<-(as.numeric(EJs.na$I25)-1)
+#EJs.na$D5<-(as.numeric(EJs.na$D5)-1)
+#EJs.na$I24<-(as.numeric(EJs.na$I24)-1)
+#EJs.na$A10<-(as.numeric(EJs.na$A10)-1)
+#EJs.na$A9<-(as.numeric(EJs.na$A9)-1)
+#EJs.na$B3<-(as.numeric(EJs.na$B3)-1)
+#
+#m10.4 <- map2stan( 
+#                   alist(
+#                     H6~dbinom(1,p),
+#                     logit(p) <- #a+a_JSLA[JLSA]+b2*I22+b5*I25+bd*D5+b4*I24+ba*A10+b9*A9+b3*B3,
+#                     a_JSLA[JLSA] ~ dnorm(0,sigma_JLSA),
+ #                    a~dnorm(0, 10),
+  #                   b2~dnorm(0, 10) ,
+   #                  b5~dnorm(0, 10) ,
+    #                 bd~dnorm(0, 10) ,
+     #                b4~dnorm(0, 10) ,
+      #               ba~dnorm(0, 10) ,
+       #              b9~dnorm(0, 10) ,
+        #             b3~dnorm(0, 10) ,
+         #            sigma_JLSA ~ dcauchy(0,1)
+          #         ) ,
+           #        data=EJs.na,chains=3,iter=3000,warmup = 1000,cores=3,start = #start,control=list(adapt_delta=0.99))
+#precis( m10.4 , depth=2 )
+#plot(m10.4)
+#str(EJs.na)
+
+#
+#start1 <- c(a = 0, b2 = 0, b5 = 0, bd = 0,b4 = 0, ba = 0, b9 = 0, b3 = 0,alfa = 0)
+#m10.5 <- map2stan( 
+#  alist(
+#    H6~dbinom(1,p),
+#    logit(p) <- a+a_JSLA[JLSA]+b2*I22+b5*I25+bd*D5+b4*I24+ba*A10+b9*A9+b3*B3,
+#    a~dnorm(0, 10),
+#    a_JSLA[JLSA] ~ dnormNC(alfa),
+#    b2~dnorm(0, 10) ,
+#    b5~dnorm(0, 10) ,
+#    bd~dnorm(0, 10) ,
+#    b4~dnorm(0, 10) ,
+#    ba~dnorm(0, 10) ,
+#    b9~dnorm(0, 10) ,
+#    b3~dnorm(0, 10) ,
+#    alfa ~ dcauchy(0,1)
+#  ) ,
+#  data=EJs.na,chains=1,iter=3000,warmup = 1000,cores=1,start=start1)
+
+#precis( m10.5 , depth=2 )
+#plot(m10.5)
+#str(EJs.na)
+```
+
+```{r, echo=F}
+########
+EJs.na$ID<- 1:length(EJs.na)
+#Creating the list
+d <- list(H6=EJs.na$H6, n=length(EJs.na$H6),
+          N_JSLA=length(unique(EJs.na$JLSA)),
+          JSLA=EJs.na$JLSA,
+          I22=EJs.na$I22,
+          I25=EJs.na$I25,
+          D5=EJs.na$D5,
+          I24=EJs.na$I24,
+          A10=EJs.na$A10,
+          A9=EJs.na$A9,
+          B3=EJs.na$B3)
+
+# Let's deal with divergent transitions and lack of convergence
+# We need to get to work with stan code here
+
+code1 <-" 
+data{
+int<lower=1> n;
+int<lower=1> N_JSLA;
+int H6[n];
+int JSLA[n];
+int I22[n];
+int I25[n];
+int D5[n];
+int I24[n];
+int A10[n];
+int A9[n];
+int B3[n];
+}
+parameters{
+vector[N_JSLA] a_JSLA_raw;
+real a;
+real<lower=0> sigma_JSLA;
+real b5;
+real bd;
+real b2;
+real b4;
+real ba;
+real b9;
+real b3;
+}
+transformed parameters{
+vector[N_JSLA] a_JSLA;
+a_JSLA = 0 + a_JSLA_raw*sigma_JSLA;//implies a_JSLA ~ normal(0, sigma_JSLA)
+}
+
+model{
+vector[n] p;
+sigma_JSLA ~ cauchy( 0 , 1 );
+a ~ normal( 0 , 1 );
+a_JSLA_raw ~ normal( 0 , 1 );
+b2 ~ normal( 0 , 1 );
+b5 ~ normal( 0 , 1 );
+bd~ normal( 0 , 1 );
+b4~ normal( 0 , 1 );
+ba~ normal( 0 , 1 );
+b9~ normal( 0 , 1 );
+b3~ normal( 0 , 1 );
+
+for ( i in 1:n ) {
+p[i] = a + a_JSLA[JSLA[i]]+b2*I22[i]+b5*I25[i]+bd*D5[i]+b4*I24[i]+ba*A10[i]+b9*A9[i]+b3*B3[i];
+
+}
+H6 ~ binomial_logit( 1 , p );
+}
+generated quantities{
+vector[n] p;
+vector[n] log_lik;
+
+for ( i in 1:n ) {
+p[i] = a + a_JSLA[JSLA[i]]+b2*I22[i]+b5*I25[i]+bd*D5[i]+b4*I24[i]+ba*A10[i]+b9*A9[i]+b3*B3[i];
+log_lik[i] = binomial_logit_lpmf(H6[i]|1,p[i]);
+}
+
+}
+
+"
+
+# Adding variables for stan model
+```
+
+```{r Negative, fig.width=10, fig.height=10,echo=F}
+
+options(mc.cores = parallel::detectCores())
+m1.1 <- stan(model_code = code1, data=d, iter=3000, chains=4,cores=4, thin=1,
+             warmup=1000, control = list(adapt_delta = 0.9, stepsize=1))
+```
+
+#Mapping both positive and negative
+```{r , fig.width=10, fig.height=10,echo=F}
+
+# Diagnostics: traceplot, No effective samples and Rhat
+print(m1.1, probs=c(0.025, 0.975))
+traceplot(m1.1, pars=c("a_JSLA","a","sigma_JSLA"))
+traceplot(m1.1, pars=c("b2","b5","bd","b4","ba","b9","b3"))
+# Information criteria
+library(loo)
+log_lik1.1 <- extract_log_lik(m1.1)
+(m1.1_loo <- loo(log_lik1.1))
+waic(log_lik1.1)
+```
+
+```{r , fig.width=10, fig.height=10,echo=F}
+
+# extract Stan samples from posterior distribution of this reparameterized model
+postm1.1 <- extract(m1.1)
+hist(postm1.1$a)
+hist(postm1.1$b5)
+
+p<- postm1.1$p  
+a_JSLA<- postm1.1$a_JSLA
+sigma_JSLA<- postm1.1$sigma_JSLA
+b2 <- postm1.1$b2
+b5<- postm1.1$b5
+bd <- postm1.1$bd
+b4<- postm1.1$b4
+ba <- postm1.1$ba
+b9 <- postm1.1$b9
+b3 <- postm1.1$b3
+#sim 
+```
+
+```{r , fig.width=10, fig.height=10,echo=F}
+
+# Diagnostic !!!
+library(shinystan)
+options(shinystan.rstudio = TRUE)
+launch_shinystan(m1.1) # WOAAAAAA!!!!!!!!
+#
+# extract Stan samples from posterior distribution of this reparameterized model
+post <- extract.samples(m1.1)
+
+#Don't know what to do next in terms of simulating data and playing with that
+```
+#library(bayesplot)
+
+#JLSA
+#counties my different levels (10 of them)
+#I22 (B2)
+#Is there a water treatment system inside the tanks? (y/n)
+#I25 (B5)
+#Is your waste water exit located close to the water entrance of your farm? (y/n)
+#D5 (bd)
+#In the last 10 years did you use organisms that came from imported nurseries? (y/n)
+#I24 (b4)
+#Are there shrimp farms or processing farms which wastes could affect the water your farm use?(y/n)
+#A10 (ba)
+#How did you discarded the trash in 2015? (good/bad)
+#A9 (b9)
+#How did you eliminate the dead organisms in 2014? (good/bad)
+#B3 (B3)
+#Did you clean /scrape the bottom of the shrimp tank in 2014?

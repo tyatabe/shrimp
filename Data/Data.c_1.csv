@@ -1,0 +1,410 @@
+"","id","Longitude","Latitude","JLSA","A1","A3","A9","A10","B3","B4","C1","C2","C7","D2","D5","D6","F3","F5","G2","I14","I22","I23","I24","I25","H6","H8"
+"1",48987,-108.194398,25.195086,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","27","8","19","Si","Si","0","Si","Si","Si","Si"
+"2",48987,0,0,"Navolato Norte","0","0","0","Incineraci—n","Si","0","Si","Si","ninguno","0","0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",52599,0,0,"Eldorado","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"0","Si",NA,"1","10/M2","16","Si","0","0","0","Si","0","Si"
+"4",53256,-106.129131,22.962064,"Rosario","0","0","Incineraci—n","Incineraci—n","0","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","3","120","6","0","0","0","0","0","0","Si"
+"5",53348,-107.71912,24.5288,"Navolato Sur","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si","filtracion","Si","Si","ImportaciÌ_n de reproductores","38","10","15","Si","Si","Si","Si","Si","Si","Si"
+"6",53434,0,0,"Eldorado","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","0","filtracion","0","0",NA,"1","10","7","Si",NA,NA,"0","Si","0","Si"
+"7",53446,-109.313344,26.109397,"Ahome","Si","Si","Incineraci—n","Incineraci—n","Si","0","0","0","ninguno","Si","Si","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","3","10","12","Si","0",NA,"0","0","0","Si"
+"8",53446,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9",53449,-106.315464,23.165622,"Mazatl‡n-San Ignacio","0","0","Entierro sin tratar","Incineraci—n","0","Si","0","Si","ninguno","Si","Si","Siembra de organismos silvestres","4",NA,"20","0","0","0","0","Si","0","Si"
+"10",53449,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11",53505,-109.380131,26.068628,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","14","10","9","Si","0",NA,"0","0","0","Si"
+"12",53520,0,0,"Eldorado","Si","Si","Entierro con cal y tierra","Entierro sin tratar","0","Si","Si","Si","filtracion","0","Si",NA,"2","7.5/M2","28","Si","0","0","0","Si","0","Si"
+"13",53658,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14",53668,-109.398531,26.026042,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","23","8","34","Si","0",NA,"0","0","Si","Si"
+"15",53668,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16",53758,-109.391272,26.0343,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","11","8","15","Si","0","Si","0","0","0","Si"
+"17",53758,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18",53789,-109.406378,25.994756,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","4","10","25","0","0",NA,"0","0","0","Si"
+"19",54017,-109.2575,25.857222,"Guasave Norte","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","15","10","6","0","0",NA,"0","0","Si","Si"
+"20",54042,-109.196989,26.071861,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","filtracion","Si","Si","ImportaciÌ_n de reproductores","27","10","10","Si","0","0","0","0","0","Si"
+"21",54042,-109.609889,27.342056,"Ahome","0","0","Entierro sin tratar","Entierro sin tratar","Si","Si","0","0","filtracion","0","Si","ImportaciÌ_n de reproductores","1","10","3","Si","0","0","0","0","0","Si"
+"22",54159,-109.4214,25.997481,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","10","6","25","Si","0",NA,"0","0","0","Si"
+"23",54161,-109.322205,26.229375,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","23","8","20","Si","0","Si","0","0","Si","Si"
+"24",54161,-109.217481,26.122683,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","Si","Si","filtracion","0","0",NA,"10","8","22","Si","0","0","0","0","Si","Si"
+"25",54197,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26",54242,-109.315347,26.1057222,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","19","10","19","Si","0","Si","0","0","0","Si"
+"27",54242,-109.315769,26.1052056,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","23","8","19","Si","0","Si","0","0","0","Si"
+"28",54279,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29",54293,-108.219995,25.178238,"Angostura","Si","0","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","0","ninguno","0","0","ImportaciÌ_n de reproductores","3","7","19","Si","Si","0","0","Si","Si","Si"
+"30",54304,-109.118939,26.213206,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","Si","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","11","9.6","9","Si","0",NA,"0","0","Si","Si"
+"31",54304,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32",54308,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33",54345,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"Si","0",NA,"7","10","10","0","0","0","0","0","0","Si"
+"34",54345,0,0,"Guasave Sur","Si","Si","Entierro sin tratar","Incineraci—n","Si","Si","0","0","filtracion","Si","0","ImportaciÌ_n de reproductores","2","10","20","0","0","0","0","0","Si","Si"
+"35",54350,-106.622678,23.492039,"Mazatl‡n-San Ignacio","0","0","0","Incineraci—n","0","0","0","0","ninguno","Si","Si","Siembra de organismos silvestres","3","5","2","0","0","0","0","Si","0","Si"
+"36",54377,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37",54386,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38",54423,-109.641644,27.440572,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","Si","Si","ImportaciÌ_n de reproductores","27","12","12","Si","0","0","Si","Si","0","Si"
+"39",54423,-109.196817,26.076442,"Ahome","0","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","0","Si",NA,"0","Si",NA,"25","8","14","Si","Si","Si","0","0","0","Si"
+"40",54488,-109.196817,26.076442,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","Si","Si",NA,"Si","Si",NA,"38","11","11","Si","0","0","0","0","0","Si"
+"41",54488,-109.24118,26.347575,"Ahome","0","0","Entierro sin tratar","Entierro sin tratar","Si","0","0","Si",NA,"0","Si","ImportaciÌ_n de larvas","2","10","3","Si","0","0","0","Si","0","Si"
+"42",54488,-109.604328,27.377658,"Ahome","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si",NA,"0","Si","ImportaciÌ_n de larvas","4","12","11","0","0","0","0","Si","0","Si"
+"43",54605,-109.329067,26.10145,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","0","Otros","15","6","30","Si","0","Si","0","0","0","Si"
+"44",54677,-109.604111,26.375139,"Ahome","0","0","Entierro sin tratar","Entierro sin tratar","Si","0","0","Si",NA,"0","0",NA,"8","10","10","0","0","0","0","0","Si","Si"
+"45",54711,-107.4693,24.29633,"Eldorado","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si",NA,"0","Si",NA,"2","8","6","0","Si","0","0","0","0","Si"
+"46",54715,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47",54725,-106.315444,23.165647,"Mazatl‡n-San Ignacio","0","0","Incineraci—n","Incineraci—n","0","Si","Si","Si","filtracion","Si","Si","Siembra de organismos silvestres","9","10","20","0","0","0","Si","Si","0","Si"
+"48",54725,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49",54743,-109.377611,25.823497,"Ahome","0","0","Entierro sin tratar","Entierro sin tratar","Si","0","0","0",NA,"Si","0","ImportaciÌ_n de reproductores","8","10","3","Si","0","0","0","0","0","Si"
+"50",54743,-107.92566,24.7539,"Navolato Norte","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","1","4","20","0","Si","0","Si","Si","Si","Si"
+"51",55016,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52",55028,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","4","10","10","0","0",NA,"Si","Si","Si","Si"
+"53",55087,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54",55175,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","5","10","7","0","0",NA,"Si","Si","Si","Si"
+"55",55175,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56",55177,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","2","10","20","0","0","0","Si","Si","Si","Si"
+"57",55177,-107.64493,24.50343,"Navolato Sur","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores","1","8","8","0","Si","0","Si","Si","Si",NA
+"58",55211,0,0,"Mazatl‡n-San Ignacio","Si","Si",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59",55211,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,"0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60",55224,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61",55225,0,0,"Eldorado","0","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","3","10","30","0","0",NA,"Si","Si","Si","Si"
+"62",55234,-109.345167,26.097397,"Ahome","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","83","10","15","Si","0","Si","0","0","0","Si"
+"63",55296,-108.611022,25.367236,"Guasave Norte","Si","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","15","10","20","Si","Si","0","Si","Si","Si","Si"
+"64",55348,-109.106925,26.295917,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","14","7","18","Si","0",NA,"0","0","0","Si"
+"65",55379,0,0,"Eldorado","Si","Si","Entierro sin tratar","Incineraci—n","Si","Si","Si","0","filtracion","0","Si",NA,"1","7","4","Si","0","0","0","0","0","Si"
+"66",55402,-106.292108,23.141064,"Mazatl‡n-San Ignacio","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"0","Si","ImportaciÌ_n de reproductores; Otros","58","10","14","Si","Si","0","Si","Si","0","Si"
+"67",55433,0,0,"Guasave Sur","Si","Si","0","Incineraci—n","0","0","0","0","ninguno","0","0","ImportaciÌ_n de reproductores","1",NA,"8","0","0","0","0","0","0","0"
+"68",55433,-108.396461,25.324583,"Guasave Sur","Si","Si","0","Incineraci—n","Si","0","0","0","filtracion","Si","0","ImportaciÌ_n de reproductores","2","10","18","Si","Si","0","0","0","0","Si"
+"69",55436,-106.340253,23.190817,"Mazatl‡n-San Ignacio","0","0","Incineraci—n","Incineraci—n","0","0","Si","Si","ninguno","0","Si","Siembra de organismos silvestres","8","200","1","0","0","0","0","0","0","0"
+"70",55436,0,23.234081,"Mazatl‡n-San Ignacio","0","0","Entierro sin tratar","Entierro sin tratar","0","0","Si","Si","ninguno","0","Si","Siembra de organismos silvestres","6","300","2","0","0","0","0","0","0","Si"
+"71",55438,-107.84373,24.61025,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","Si","Si","ImportaciÌ_n de larvas","14","7","20","0","Si","0","Si","Si","Si","Si"
+"72",55441,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73",55541,-106.270364,23.178461,"Mazatl‡n-San Ignacio","0","0","0","0","0","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","5","100","2","0","0","0","0","0","0","Si"
+"74",55541,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75",55542,-106.292506,23.109753,"Mazatl‡n-San Ignacio","0","0","0","0","0","0","0","Si","ninguno","0","Si","Siembra de organismos silvestres","4","18","15","0","0","0","0","Si","0","Si"
+"76",55561,-107.59709,24.57218,"Navolato Sur","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","0","0","filtracion","0","Si","Otros","2","8","5","0","0","0","Si","Si","Si","Si"
+"77",55561,-107.80462,24.59991,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","Si","0","ImportaciÌ_n de reproductores; Otros","54","12","15","Si","Si",NA,"Si","Si","Si","Si"
+"78",55562,-108.198879,25.175577,"Angostura","Si","0","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","ninguno","Si","0","ImportaciÌ_n de reproductores","33","10","20","Si","Si","Si","0","Si","Si","Si"
+"79",55562,-108.227042,25.182142,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","Si","0","ImportaciÌ_n de larvas","23","10","25","Si","Si","0","0","Si","Si","Si"
+"80",55563,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81",55563,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82",55669,-107.8913,24.635,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","9","7.5","25","Si","Si","Si","Si","Si","0","Si"
+"83",55669,-107.84896,24.60788,"Navolato Sur","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas; Otros","9","8","20","Si","0","Si","Si","Si","0","Si"
+"84",55669,-107.60291,24.56983,"Navolato Sur","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","0","filtracion","0","Si","ImportaciÌ_n de reproductores; Otros","3","9","6","0","0","0","Si","Si","0","Si"
+"85",55684,-105.708028,22.548975,"Escuinapa","0","0","Incineraci—n","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","25","10","15","Si","0","0","Si","0","0","Si"
+"86",55684,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87",55748,-108.237266,25.200247,"Angostura","0","0",NA,"Entierro sin tratar","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","2","9.5","9","0","0","0","0","Si","0","Si"
+"88",55748,-108.244926,25.199552,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","9","8.33","15","Si","Si","0","0","Si","0","Si"
+"89",55748,-108.244519,25.200619,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","7","10","18","Si","0","0","0","Si","0","Si"
+"90",55779,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91",55779,-109.389489,23.02585,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores","4","7","4","Si","0",NA,"0","0","0","Si"
+"92",55804,-108.230407,25.214378,"Angostura","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","18","5.6","19","Si","Si","0","0","Si","Si","Si"
+"93",55804,0,0,"Angostura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94",55815,-107.62139,24.48046,"Navolato Sur","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion; prod_quim","0","Si","ImportaciÌ_n de reproductores","8","8","25","0","Si","0","Si","Si","Si","Si"
+"95",55819,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96",55820,-106.292953,23.160489,"Mazatl‡n-San Ignacio","0","0","Entierro sin tratar","Incineraci—n","0","Si","0","Si","prod_quim","Si","Si","ImportaciÌ_n de larvas; Siembra de organismos silvestres","9","9","18","0","0","0","Si","Si","0","Si"
+"97",55821,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98",55826,0,0,"Eldorado","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","8","10","20","0","0",NA,"Si","0","Si","Si"
+"99",55826,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100",55841,-108.270884,25.246149,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","17","9","18","Si","Si","0","Si","Si","Si","Si"
+"101",55841,-108.288555,25.237142,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","10","8","Si","0","0","0","0","Si","Si"
+"102",55896,-108.294951,25.243549,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","10","10","18","Si","Si","0","0","Si","Si","Si"
+"103",55927,-108.305258,25.254933,"Angostura","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas; Siembra de organismos silvestres","20","9","12","Si","Si","0","0","Si","Si","Si"
+"104",55927,-109.266667,25.883333,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","0","filtracion; prod_quim","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","10","6","0","0","0","Si","Si","0","Si"
+"105",55960,-107.4785,24.34639,"Eldorado","Si","Si","Incineraci—n","Entierro con cal y tierra","Si","Si","0","0",NA,"0","Si",NA,"1","10","6","Si","0","0","0","0","0","Si"
+"106",56007,0,0,"Eldorado","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","8","12","20","Si","0",NA,"0","0","Si","Si"
+"107",56102,-106.123894,22.956794,"Rosario","0","0","Entierro con cal y tierra","Incineraci—n","0","Si","Si","Si","ninguno","0","Si","Siembra de organismos silvestres","4","100","20","0","0","0","0","Si","0","Si"
+"108",56105,-109.233333,25.883333,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","Si","Si","Si",NA,"Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","10","2","0","0","0","Si","Si","0","Si"
+"109",56105,0,0,"Escuinapa","0","0","Entierro sin tratar","Entierro sin tratar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110",56114,-107.474503,24.34577,"Eldorado","Si","Si","Incineraci—n","Entierro sin tratar","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","8","10","Si","0","0","0","0","0","Si"
+"111",56141,-108.316083,25.298748,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","12","8.8","19","Si","Si","0","Si","Si","Si","Si"
+"112",56143,0,0,"Guasave Sur","Si","Si","Incineraci—n","Incineraci—n","Si","Si","0","0",NA,"0","0","ImportaciÌ_n de reproductores","29","10","25","0","0","0","0","0","Si","Si"
+"113",56143,0,0,"Navolato Norte",NA,NA,NA,NA,"Si","Si","Si","Si",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114",56152,-105.831275,22.807019,"Escuinapa","0","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","6","7","10","Si","0","0","Si","0","Si","Si"
+"115",56152,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116",56153,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117",56165,-105.825672,22.807783,"Escuinapa","0","Si","Incineraci—n","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","2","5","10","0","0","Si","Si","Si","0","Si"
+"118",56165,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119",56181,-107.472198,24.340691,"Eldorado","Si",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120",56185,-109.291803,25.769572,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","10","10","5","Si","0","Si","0","Si","0","Si"
+"121",56185,-109.386069,25.851358,"Ahome","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","20","12","16","Si","0","0","0","0","Si","Si"
+"122",56187,0,0,"Eldorado","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","10","15","0","0",NA,"Si","0","Si","Si"
+"123",56187,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124",56217,-105.7421,22.797597,"Escuinapa","0","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","30","9","10","Si","0","0","Si","0","0","Si"
+"125",56224,-105.757053,22.566894,"Escuinapa","0","0","Incineraci—n","Incineraci—n","0","0","0","Si","ninguno","0","Si","Siembra de organismos silvestres","11","90","20","Si","0","0","Si","0","0","Si"
+"126",56224,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127",56231,-105.827569,22.668906,"Escuinapa","0","0","Incineraci—n","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","26","48","15","Si","0","0","Si","0","0","Si"
+"128",56248,-105.749931,22.7514,"Escuinapa","0","0","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","filtracion; ninguno","0","Si","Siembra de organismos silvestres","10","18","20","Si","0","0","Si","Si","Si","Si"
+"129",56248,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130",56279,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131",56282,-105.769397,22.581697,"Escuinapa","0","0","Entierro sin tratar","Entierro sin tratar","0","0","Si","0","ninguno","0","Si","ImportaciÌ_n de reproductores; Siembra de organismos silvestres","12","40","18","0","0","0","Si","Si","Si","Si"
+"132",56282,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133",56441,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134",56463,0,0,"Eldorado","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","0","0",NA,"1","6","5","0","0",NA,"Si","0","Si","Si"
+"135",56594,0,25.316667,"Guasave Norte","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si",NA,"Si","Si",NA,NA,NA,NA,"Si","Si","Si","Si","Si","Si","Si"
+"136",56602,-105.837561,22.829167,"Escuinapa","0","0","Entierro sin tratar","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","4","7","15","0","0","0","0","0","Si","Si"
+"137",56602,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138",56637,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139",56649,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140",56653,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141",56684,-105.994864,22.900022,"Rosario","0","0","Entierro con cal y tierra","Incineraci—n","0","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","16","70","25","0","0","0","0","0","0","Si"
+"142",56684,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143",56698,-106.062464,22.8822,"Rosario","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","0","0","ninguno","0","Si","Siembra de organismos silvestres","3","10","15","0","0","0","0","0","0","Si"
+"144",56714,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145",56714,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146",56752,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147",56842,-107.447,24.32226,"Eldorado","Si","Si","Incineraci—n","Entierro sin tratar","Si","0","Si","0","ninguno","0","Si",NA,"1","8.5","18","0","0","0","0","0","0","Si"
+"148",56844,-107.509201,24.514521,"Eldorado","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","0","filtracion","0","Si",NA,"1","8","15","0","0","0","0","Si","0","Si"
+"149",56898,-108.317632,25.269427,"Angostura","0","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","8","3","Si","0","0","Si","Si","Si","Si"
+"150",57027,-105.977928,22.844317,"Rosario","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","16","10","18","Si","Si","Si","Si","Si","0","Si"
+"151",57027,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152",57045,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153",57073,0,0,"Eldorado","0","0","Entierro sin tratar","Incineraci—n","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","10","15","0","0","0","0","0","Si","Si"
+"154",57073,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155",57077,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156",57129,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","5","10","20","0","0",NA,"0","0","Si","Si"
+"157",57159,-109.421081,26.613086,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","25","12","15","Si","0","0","0","0","0","Si"
+"158",57159,-109.203642,26.078664,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion; prod_quim","Si","0","ImportaciÌ_n de reproductores","30","10","25","Si","0","Si","Si","0","Si","Si"
+"159",57163,-106.121789,22.958381,"Rosario","0","0","Incineraci—n","Incineraci—n","0","Si","0","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","2","150","6","0","0","0","0","0","0","Si"
+"160",57163,-106.164603,23.004039,"Rosario","0","0","Incineraci—n","Incineraci—n","0","Si","0","0","ninguno","0","Si","Siembra de organismos silvestres","3","100","13","0","0","0","0","0","0","Si"
+"161",57163,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162",57164,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163",57164,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164",57164,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165",57208,-106.108625,22.920917,"Rosario","0","0","Incineraci—n","Incineraci—n","0","0","0","0","ninguno","0","0","Siembra de organismos silvestres","6","300","12","0","0","0","0","0","0","Si"
+"166",57264,-108.746861,25.535144,"Guasave Norte","Si","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","filtracion","Si","0","ImportaciÌ_n de larvas","6","12","25","0","0","Si","Si","0","Si","Si"
+"167",57294,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168",57309,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169",57315,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170",57388,-106.132325,22.965689,"Rosario","0","0","Incineraci—n","Incineraci—n","0","Si","0","0","ninguno","0","Si","Siembra de organismos silvestres","1","100","3","0","0","0","0","Si","0","Si"
+"171",57388,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172",57416,-106.151428,22.971406,"Rosario","0","0","Incineraci—n","Incineraci—n","0","0","0","Si","ninguno","0","Si","Siembra de organismos silvestres","13","225","15","Si","0","0","Si","0","Si","Si"
+"173",57474,-106.1175,23.932375,"Rosario","0","0","Incineraci—n","Incineraci—n","0","0","0","Si","ninguno","0","Si","Siembra de organismos silvestres","10","150","25","0","0","0","0","0","0","Si"
+"174",57474,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175",57474,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176",57486,-106.197528,23.037658,"Rosario","0","0","Incineraci—n","Incineraci—n","0","0","0","0","ninguno","0","Si","Siembra de organismos silvestres","1","100","4","0","0","0","0","Si","0","Si"
+"177",57486,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178",57487,-106.358656,23.182278,"Mazatl‡n-San Ignacio","0","0","Incineraci—n","Incineraci—n","Si","Si","0","0","ninguno","0","Si","Siembra de organismos silvestres","2","10","6","0","0","0","Si","Si","0","Si"
+"179",57487,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180",57786,-106.349875,23.171519,"Mazatl‡n-San Ignacio","0","0","Entierro sin tratar","0","0","Si","0","0","ninguno","0","Si","ImportaciÌ_n de reproductores; Siembra de organismos silvestres","1","8","5","0","0","0","Si","Si","0","Si"
+"181",57786,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182",57876,-108.584358,25.360536,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","8","10",NA,"Si","Si","Si","Si","Si","Si","Si"
+"183",57876,-106.286044,23.135272,"Mazatl‡n-San Ignacio","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si",NA,"Si","Si",NA,NA,NA,NA,"Si","Si","Si","Si","Si","Si","Si"
+"184",58173,-107.4539,24.3289,"Eldorado","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si",NA,"0","Si",NA,"1","8","11","Si","0","0","Si","0","0","Si"
+"185",58248,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","5","7","17","Si","0",NA,"Si","Si","0","Si"
+"186",58266,0,0,"Eldorado","Si","Si","Entierro con cal y tierra","Incineraci—n","0","Si","Si","Si",NA,"0","Si","ImportaciÌ_n de reproductores","2","8","24","0","0","0","0","0","0","0"
+"187",58436,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188",58538,-107.4608,23.33471,"Eldorado","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","ninguno","0","Si","Otros","1","10","25","0","0","0","0","0","0","Si"
+"189",58652,-107.94577,24.84005,"Navolato Norte","0","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","9","5","15","Si","Si","0","Si","0","0","Si"
+"190",58679,-108.31018,25.266641,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","4","9","3","Si","0","0","Si","Si","0","Si"
+"191",58682,-108.326659,25.296057,"Angostura","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","lag_ox","0","0","Otros","14","9.1","16","Si","0","Si","Si","Si","Si","Si"
+"192",58682,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","0","0","filtracion","0","0","ImportaciÌ_n de reproductores","11","10","12","0","0",NA,"0","0","Si","Si"
+"193",58683,-108.327331,25.305946,"Angostura","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","0","prod_quim","0","0","ImportaciÌ_n de reproductores","40","10","12","Si","Si","Si","Si","Si","Si","Si"
+"194",58684,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","5","8","10","0","0",NA,"0","0","Si","Si"
+"195",58742,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"196",58742,-109.366953,25.895372,"Ahome","0","0","Entierro con cal y tierra","Entierro sin tratar","Si","Si","0","0","filtracion","Si","0","ImportaciÌ_n de larvas","3","12","3","Si","0","0","0","0","0","Si"
+"197",58831,-108.619778,25.384067,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","14","7.7","30","0","0",NA,"Si","0","Si","Si"
+"198",59028,0,0,"Eldorado","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","1","10","25","0","0","0","0","0","Si","Si"
+"199",59032,0,0,"Eldorado","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","22","10","25","0","0","0","0","Si","Si","Si"
+"200",59056,-109.26178,26.332807,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","filtracion","Si","Si","ImportaciÌ_n de reproductores","5","12","5","Si","0","0","0","0","0","Si"
+"201",59056,-109.690247,26.72108,"Ahome","0","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","filtracion","0","0","ImportaciÌ_n de reproductores","6","4","6","Si","0","0","0","0","Si","Si"
+"202",59058,-110.525761,25.922928,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","0","0","ImportaciÌ_n de reproductores","27","10","10","Si","0","0","0","0","0","Si"
+"203",59112,-108.493331,25.480294,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","0","0","Si","Si",NA,"0","Si",NA,"6","10","25","0","Si",NA,"Si","Si","Si","Si"
+"204",59167,-108.085612,25.089822,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","21","7","16","Si","Si","0","0","Si","Si","Si"
+"205",59167,-108.085694,25.089771,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","15","9","17","Si","Si","0","Si","Si","Si","Si"
+"206",59167,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","0","0","filtracion","0","0",NA,"3","11","20","0","Si",NA,"0","0","Si","Si"
+"207",59254,0,0,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","12","5","6","Si","0","0","0","0","0","Si"
+"208",59254,-108.776344,25.561442,"Guasave Norte","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","25","10","20","Si","Si",NA,"Si","Si","Si","Si"
+"209",59297,-109.283752,26.37710681,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","0","0","filtracion","Si","Si","ImportaciÌ_n de larvas","17","10","18","Si","0","0","0","0","0","Si"
+"210",59297,-109.223303,26.08525,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","0","Si","Si",NA,"Si","0","ImportaciÌ_n de reproductores; Otros","11","10","28","Si","0","0","Si","Si","0","Si"
+"211",59304,-107.5177,24.32597,"Eldorado","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores","3","10","12","Si","Si","0","Si","0","Si","Si"
+"212",59368,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213",59403,-108.000709,24.999396,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","4","16","Si","0","0","Si","0","Si","Si"
+"214",59403,-108.676778,25.431725,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","14","8","20","0","Si",NA,"Si","Si","Si","Si"
+"215",59486,-106.0402,22.869667,"Rosario","0","0","Incineraci—n","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","ImportaciÌ_n de reproductores","12","10","10","0","0","0","Si","0","0","Si"
+"216",59603,-108.202684,25.200821,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","12","14","0","0","0","Si","0","Si","Si"
+"217",59622,-108.203012,25.187665,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","7","7","17","0","Si","0","Si","Si","0","Si"
+"218",59623,-108.208478,25.195586,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","10","17","0","0","0","Si","Si","Si","Si"
+"219",59678,-108.2182,25.188118,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","20","6","10","Si","Si","0","Si","Si","Si","Si"
+"220",59711,-108.226908,25.182049,"Angostura","Si","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","23","10","16","Si","Si","0","Si","Si","Si","Si"
+"221",59730,-108.234984,25.193196,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","9","8","Si","0","0","Si","Si","0","Si"
+"222",59815,-108.233159,25.186243,"Angostura","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de larvas","4","8","4","Si","Si","0","Si","Si","Si","Si"
+"223",59860,-107.436,24.28353,"Eldorado","0","0","Entierro sin tratar","Incineraci—n","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","10","15","0","0","0","0","0","Si","Si"
+"224",59945,-108.634667,25.383114,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"25","13","15","0","Si",NA,"Si","0","Si","Si"
+"225",59957,-107.6625,24.55,"Navolato Sur","0","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","filtracion; prod_quim","0","Si","Otros","7","6","4","0","0","0","Si","Si","Si","Si"
+"226",59991,-107.78023,24.59145,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","filtracion","Si","Si","ImportaciÌ_n de reproductores; Otros","10","8.5","27","Si","Si","Si","Si","Si","Si","Si"
+"227",60030,-107.912222,24.603056,"Navolato Sur","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","0","0","Si","0",NA,"0","Si","ImportaciÌ_n de reproductores; Otros","55","500","15","Si","0","0","Si","Si","Si","Si"
+"228",60032,-107.64093,24.51423,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","0","Si","filtracion","0","Si","ImportaciÌ_n de reproductores","8","10","20","0","0","0","Si","Si","Si","Si"
+"229",60034,-107.5956,24.53609,"Navolato Sur","Si","Si","Incineraci—n","Entierro con cal y tierra","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores","10","8","12","Si","Si","0","Si","Si","Si","Si"
+"230",60048,-107.73518,24.54494,"Navolato Sur","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si","filtracion; prod_quim","0","Si","ImportaciÌ_n de reproductores","10","8","9","Si","Si","Si","0","0","Si","Si"
+"231",60053,-107.78518,24.59629,"Navolato Sur","Si","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","filtracion; prod_quim","0","0","ImportaciÌ_n de reproductores","8","8","20","0","Si","0","Si","Si","Si","Si"
+"232",60056,-107.73518,24.54494,"Navolato Sur","Si","Si","Entierro con cal y tierra","0","Si","Si","Si","Si","ninguno","0","0","Otros","20","8","25","Si","Si","Si","Si","0","Si","Si"
+"233",60060,0,0,"Guasave Sur","Si","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"7","15","4","0","0","0","0","0","0","0"
+"234",60063,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"Si","0",NA,"9","10","25","0","0","0","0","0","Si","Si"
+"235",60068,0,0,"Guasave Sur","0","Si","0","Incineraci—n","Si","Si","0","0","filtracion","0","0",NA,"2","11.7","15","Si","0","0","0","0","0","Si"
+"236",60071,-108.533358,25.339581,"Guasave Sur","Si","Si","0","Incineraci—n","Si","Si","Si","0","ninguno","0","0",NA,"5","10","9","0","0","0","0","0","0","0"
+"237",60083,-108.367322,25.295875,"Guasave Sur","Si","Si","0","Incineraci—n","0","0","0","0","filtracion","Si","0",NA,"2","12","26","0","0","0","0","0","0","Si"
+"238",60138,-108.498058,25.294692,"Guasave Sur","0","0","Entierro con cal y tierra","Incineraci—n","0","Si","Si","0","filtracion","Si","0",NA,"22","10","25","0","0","0","0","0","Si","Si"
+"239",60140,-108.488914,25.311975,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"1616","10","11",NA,"0","0","0","0","Si",NA
+"240",60142,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","0","filtracion","0","0","ImportaciÌ_n de reproductores","9","10","25","0","0","0","0","0","Si","Si"
+"241",60144,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","0","filtracion","0","0","ImportaciÌ_n de reproductores","8","10","20","0","0","0","0","0","0","Si"
+"242",60146,0,0,"Eldorado","0","0","Incineraci—n","Incineraci—n","Si","Si","Si","Si","ninguno","0","0",NA,"4","6","20","0","0","0","0","0","Si","Si"
+"243",60148,-108.770875,25.555953,"Guasave Norte","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","19","12","20","Si","0",NA,"Si","0","Si","Si"
+"244",60150,0,0,"Guasave Sur","Si","Si","Entierro sin tratar","Entierro sin tratar","0","0","0","0",NA,"0","0",NA,"4","15","4","0","0","0","0","0","0","0"
+"245",60152,-107.80517,24.60495,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","0","filtracion","0","0","ImportaciÌ_n de reproductores","2","10","16","0","0","0","Si","Si","Si","Si"
+"246",60154,-108.626219,25.400575,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","4","12","28","0","Si",NA,"Si","0","Si","Si"
+"247",60156,-108.645406,25.396056,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de larvas","13","8.5","20","0","0",NA,"Si","Si","Si","Si"
+"248",60158,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"249",60160,-109.485414,26.107019,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","Si","0","ninguno","Si","0","Otros","14","7","30","Si","0","Si","0","0","0","Si"
+"250",60162,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251",60164,-109.129117,26.29765,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","14","1","20","Si","0","Si","0","0","Si","Si"
+"252",60166,0,0,"Eldorado","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","22","10","15","0",NA,"Si","0","0","Si","Si"
+"253",60169,-108.682164,25.432211,"Guasave Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","12","8","22","0","0",NA,"Si","Si","Si","Si"
+"254",60169,0,0,"Navolato Norte","0","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","ninguno","0","0","Otros","4","8.5","10",NA,NA,NA,NA,NA,NA,"Si"
+"255",60171,-108.676094,25.428447,"Guasave Norte","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"9","10","22","0","0",NA,"Si","Si","Si","Si"
+"256",60171,0,0,"Guasave Sur","Si","Si","0","Incineraci—n","Si","Si","Si","0",NA,"Si","0",NA,"7","10","27","0","0","0","0","0","Si","Si"
+"257",60173,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"258",60176,-108.623672,25.379475,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"22","12","3","Si","0",NA,"Si","Si","Si","Si"
+"259",60176,-108.6984,25.485472,"Guasave Norte","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"24","8","20","Si","Si","Si","Si","Si","Si","Si"
+"260",60176,0,0,"Guasave Sur","Si","Si","Entierro sin tratar","Incineraci—n","Si","Si","0","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","45","8","27","Si","0","0","0","0","Si","Si"
+"261",60178,0,0,"Guasave Sur","Si","Si","Entierro sin tratar","Incineraci—n","Si","Si","0","0","filtracion","Si","0",NA,"29","7","27","Si","0","0","0","0","Si","Si"
+"262",60180,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263",60183,-107.99248,24.67717,"Navolato Norte","0","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","7","9","7","Si","0","0","Si","0","Si","Si"
+"264",60185,-107.87723,24.7833,"Navolato Norte","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","0","ninguno","0","0","ImportaciÌ_n de larvas","5","8.8","20","Si","Si","0","Si","Si","0","Si"
+"265",60187,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"266",60189,-107.916429,24.717056,"Navolato Norte","0","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","ninguno","Si","0",NA,"19","8","7","Si","0","0","Si","Si","0","Si"
+"267",60191,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"268",60193,-107.93081,24.71674,"Navolato Norte","0","Si","0","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","Otros","5","8","10","Si","0","0","Si","Si","0","Si"
+"269",60196,0,24695492,"Navolato Norte","Si","Si","Entierro con cal y tierra","Incineraci—n","0","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","10","12","8","Si","0","0","Si","Si","0","Si"
+"270",60198,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"271",60200,-107.937458,24.92205,"Navolato Norte","0","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","0","Otros","10","6","9","Si","Si","0","Si","Si","Si","Si"
+"272",60203,-107.90605,24.91374,"Navolato Norte","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","ninguno","Si","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","8","7","12","0","0","0","Si","Si","Si","Si"
+"273",60205,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274",60207,-10803621,2477059,"Navolato Norte","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","0","Si","ninguno","0","0",NA,"15","10","15","0","0","0","0","Si","Si","Si"
+"275",60209,-107.947151,24.700131,"Navolato Norte","Si","Si","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","29",NA,"16","Si","0","0","Si","Si","Si","Si"
+"276",60215,0,0,"Mazatl‡n-San Ignacio","Si","Si","Incineraci—n","Incineraci—n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"277",60335,-107.82894,24.6029,"Navolato Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores","11","8","15","0","Si","0","Si","Si","Si","Si"
+"278",60362,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279",60455,-107.937909,24.759341,"Navolato Norte","0","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","4","10","6","Si","0","0","Si","Si","Si","Si"
+"280",60456,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"281",60598,-107.6128,24.39743,"Eldorado","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","0","filtracion","0","Si","ImportaciÌ_n de reproductores","3","8","30","0","0","0","0","0","0","Si"
+"282",60774,-107.916913,24.766405,"Navolato Norte","0","0","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","ninguno","0","0","Siembra de organismos silvestres","45","9","23","Si","Si","Si","Si","Si","Si","Si"
+"283",60973,-107.91982,24.78336,"Navolato Norte","0","0","Incineraci—n","Incineraci—n","Si","Si","Si","Si","ninguno","0","0","Siembra de organismos silvestres","8","8","8","0","0","0","Si","Si","Si","Si"
+"284",61008,-107.95736,24.82171,"Navolato Norte","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","12","8","20","0","Si","0","Si","0","0","Si"
+"285",61049,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","0","filtracion","0","0",NA,"7","10","10","0","0","0","0","0","0","Si"
+"286",61100,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"5","16","5","0","0","0","0","0","Si","Si"
+"287",61130,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"5","16","5","0","0","0","0","0","Si","Si"
+"288",61145,-107.469,24.29963,"Eldorado","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","0","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","1","12","5","0","Si","0","0","0","Si","Si"
+"289",61146,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"5","16","5","0","0","0","0","0","Si","Si"
+"290",61278,0,0,"Eldorado","0","0","0","Incineraci—n","Si","Si",NA,NA,"ninguno","0",NA,"ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","8","5","0","0","0","0","0","Si","Si"
+"291",61500,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","Si","0",NA,"5","16","5","0","0","0","0","0","Si","Si"
+"292",61505,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","0","filtracion","Si","0",NA,"5","10","15","Si","Si","0","0","0","Si","Si"
+"293",61508,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"294",61898,0,0,"Guasave Sur",NA,NA,NA,NA,"Si","0","0","0","filtracion","Si","0",NA,"12","10","10","0","Si","0","0","0","Si","0"
+"295",62174,-108.601706,25.357706,"Guasave Norte","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de larvas; ImportaciÌ_n de reproductores","3","8","25","Si","Si",NA,"Si","Si","Si","Si"
+"296",62181,-108.664947,25.413564,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","Si","Si","Otros","17","10","20","0","Si",NA,"Si","Si","Si","Si"
+"297",62182,-108.722814,25.454672,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"5","9","25","0","0",NA,"Si","Si","0","Si"
+"298",62194,-109.383708,25.929742,"Ahome","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores","41","9","19","Si","0",NA,"0","0","0","Si"
+"299",62216,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300",62219,-107.962727,24.88581,"Navolato Norte","0","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","ninguno","0","0","ImportaciÌ_n de reproductores","4","9",NA,NA,NA,NA,NA,NA,NA,NA
+"301",62423,-109.387008,26.100781,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","45","8","30","Si","0","Si","0","0","0","Si"
+"302",62512,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303",62554,-107.92609,24.88581,"Navolato Norte","0","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","ninguno","0","Si","ImportaciÌ_n de larvas; Otros","10","8","9","0","0","0","Si","Si","Si","Si"
+"304",62732,-109.369967,24.957306,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","Si","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","16","7.5","16","Si","Si",NA,"0","Si","0","Si"
+"305",62772,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306",62812,-109.408939,26.028847,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","4","6","18","Si","0",NA,"0","0","0","Si"
+"307",63188,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"308",63193,-109.414403,26.008242,"Ahome","Si","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","16","8","30","Si","0",NA,"0","0","0","Si"
+"309",63236,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310",63254,-109.387869,25.999106,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","49","10","18","Si","0","Si","0","0","0","Si"
+"311",63270,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312",63319,-109.412608,25.960731,"Ahome","0","0","Incineraci—n","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","25","6","28","Si","0","Si","0","0","0","Si"
+"313",63455,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"314",63493,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315",63773,-106.341764,23.167436,"Mazatl‡n-San Ignacio","0","0","0","Incineraci—n","0","Si","0","Si","ninguno","0","Si","Otros","1","18","5","0","0","0","Si","Si","0","Si"
+"316",63933,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317",63936,-106.3262,23.176344,"Mazatl‡n-San Ignacio","0","0","Entierro sin tratar","Incineraci—n","0","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","3","7","18","0","Si","0","Si","Si","0","Si"
+"318",66025,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"319",66598,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320",66716,-109.416253,26.019411,"Ahome","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","3","8","9","Si","0",NA,"0","0","0","Si"
+"321",66791,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322",69302,-107.91954,24.91693,"Navolato Norte","0","0","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","0","ninguno","0","Si","Otros","10","5","8","0","0","0","Si","0","0","Si"
+"323",70512,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324",70527,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325",70653,-109.412311,26.038742,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","1","10","23","Si","0","Si","0","0","0","Si"
+"326",70661,-109.361811,26.096783,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","1","9","18","Si","0","Si","0","0","0","Si"
+"327",70667,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328",70830,-109.397597,25.999086,"Ahome","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","24","10","18",NA,NA,NA,NA,NA,NA,NA
+"329",71032,-108.373769,25.326403,"Guasave Sur","Si","Si","0","Incineraci—n","Si","0","Si","Si","prod_quim","0","0","ImportaciÌ_n de larvas","20","10","27","0","0",NA,"0","0","0","Si"
+"330",71032,-108.396461,25.324583,"Guasave Sur","Si","Si","0","Incineraci—n","Si","Si","0","0","filtracion","Si","0","ImportaciÌ_n de reproductores","27","10","17","Si","0",NA,"0","0","Si","Si"
+"331",71032,-108.395628,25.306853,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","0",NA,"0","0",NA,"36","8","38","0","0",NA,"0","0","Si","Si"
+"332",71126,0,0,"Guasave Sur","Si","Si","Entierro con cal y tierra","Incineraci—n","0","Si","0","0","filtracion","Si","0",NA,"4","10","16","0","0","0","0","0","Si","0"
+"333",71172,0,0,"Navolato Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334",71245,-107.93731,24.85729,"Navolato Norte","0","Si","Entierro con cal y tierra","Incineraci—n","Si","0","Si","Si","ninguno","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","29","4","20","Si","0","0","Si","Si","Si","Si"
+"335",71305,0,0,"Guasave Sur","Si","Si","0","0","0","Si","Si","0","filtracion","Si","0",NA,"2","10","16","0","0","0","0","0","Si","Si"
+"336",71511,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337",71536,-109.448547,25.89382,"Ahome","Si","0","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","Si","0","Otros","1","10","14","Si","0",NA,"0","0","0","Si"
+"338",71640,-109.344177,26.57379,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion; prod_quim","Si","0","ImportaciÌ_n de reproductores","27","12","20","Si","0","Si","0","0","0","Si"
+"339",71643,-109.344177,26.57379,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","38","12","27","Si","0","Si","0","0","0","Si"
+"340",71741,-106.356497,23.196167,"Mazatl‡n-San Ignacio","0","0","0","0","0","Si","0","0","ninguno","0","Si","Siembra de organismos silvestres; ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","8","4","0","0","0","Si","Si","0","Si"
+"341",71741,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342",71769,-106.536856,23.407878,"Mazatl‡n-San Ignacio","Si","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","1","8","18","0","0","0","0","Si","0","Si"
+"343",71769,-106.270364,23.72135,"Mazatl‡n-San Ignacio","0","0","0","0","0","0","0","0","ninguno","0","0","Siembra de organismos silvestres","1","4","28","0","0","0","0","0","0","Si"
+"344",71769,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"345",71783,-109.345958,26.193197,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","Si","Si","filtracion; prod_quim; lag_ox","Si","0","ImportaciÌ_n de reproductores","35","10","25","Si","0","Si","0","0","Si","Si"
+"346",71845,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347",71853,-109.200461,26.1065861,"Ahome","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","0","Si","Si","filtracion; lag_ox","Si","0","ImportaciÌ_n de reproductores","34","12","12","Si","0","Si","0","0","0","Si"
+"348",72044,-106.302786,23.164283,"Mazatl‡n-San Ignacio","0","0","Incineraci—n","Incineraci—n","0","Si","0","Si","ninguno","Si","Si","Siembra de organismos silvestres","9","10","23","0","0","0","Si","Si","0","Si"
+"349",72054,-109.486999,26.647459,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","Si","0","0","filtracion","Si","0","ImportaciÌ_n de reproductores","22","12","17","Si","0","0","0","0","0","Si"
+"350",72060,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"351",72253,-108.485647,25.313297,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","6","8","28","0","0",NA,"Si","Si","Si","Si"
+"352",72320,-109.317181,26.117492,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","10","8","15","Si","0",NA,"0","0","0","Si"
+"353",72320,-109.304672,26.117389,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","2","10","15","Si","0",NA,"0","0","0","Si"
+"354",72349,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355",72453,-109.334375,26.108739,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores","3","10","19","Si","0","Si","0","0","0","Si"
+"356",72454,-109.312722,26.127783,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","10","15","Si","0",NA,"0","0","0","Si"
+"357",72518,-108.634667,25.383114,"Guasave Norte","Si","0","Entierro sin tratar","Incineraci—n","Si","0","Si","Si","filtracion","0","Si",NA,"25","13","15","0","Si",NA,"Si","0","Si","Si"
+"358",72519,-109.443054,26.632729,"Ahome","Si","Si","Entierro con cal y tierra","Entierro sin tratar","Si","0","Si","Si","filtracion","Si","0","ImportaciÌ_n de reproductores","15","12","26","0","0","0","0","0","0","Si"
+"359",72520,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"360",72522,-109.388639,26.055597,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","9","10","19","Si","0",NA,"0","0","Si","Si"
+"361",72559,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362",72572,-109.400589,26.052764,"Ahome","0","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","6","10","19","Si","0",NA,"0","0","0","Si"
+"363",72572,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"364",72620,-109.386381,26.051339,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","6","10","19","Si","Si",NA,"0","0","0","Si"
+"365",72633,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"366",72663,-109.379594,26.052556,"Ahome","Si","0","Entierro con cal y tierra","Incineraci—n","Si","0","0","Si","ninguno","Si","Si","ImportaciÌ_n de larvas","9","10","9","0","0",NA,"0","0","0","Si"
+"367",72664,0,0,"Ahome",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"368",72881,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"369",72897,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"370",72955,-106.818431,23.715464,"Mazatl‡n-San Ignacio","Si","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","ninguno","Si","Si","Siembra de organismos silvestres","19","35","20","0","Si",NA,"0","0","0","Si"
+"371",72955,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"372",73223,-108.749139,25.539425,"Guasave Norte","Si","0","Incineraci—n","Incineraci—n","Si","0","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","10","10","13","Si","Si",NA,"Si","Si","Si","Si"
+"373",73223,0,0,"Guasave Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374",73246,-107.436,24.28353,"Eldorado","0","0","Entierro sin tratar","Incineraci—n","Si","Si","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","10","15","0","0","0","0","0","Si","Si"
+"375",73246,-107.4713,24.32648,"Eldorado","Si","Si","Incineraci—n","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si",NA,"1","8","2 a–os","0","Si","0","0","0","Si","Si"
+"376",73257,0,0,"Mazatl‡n-San Ignacio","Si","0","Incineraci—n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"377",73257,0,0,"Mazatl‡n-San Ignacio","0","0",NA,NA,NA,NA,NA,NA,"prod_quim; lag_ox",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"378",73278,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"379",73278,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"380",73279,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"381",73279,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"382",73280,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"383",73280,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"384",73281,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385",73281,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"386",73282,-106.300389,23.118481,"Mazatl‡n-San Ignacio","0","0","Entierro con cal y tierra","Entierro con cal y tierra","0","Si","0","0","ninguno","0","Si","ImportaciÌ_n de reproductores; Siembra de organismos silvestres","2","10","15","0","0","0","0","0","0","Si"
+"387",73282,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"388",73283,-106.340492,23.177708,"Mazatl‡n-San Ignacio","0","0","0","Incineraci—n","0","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","3","10","15","0","0","0","Si","Si","0","Si"
+"389",73283,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"390",73376,-107.4652,24.30435,"Eldorado","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si","filtracion","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas","3","8","30","0","Si","0","0","0","0","Si"
+"391",73378,-107.478104,24.463631,"Eldorado","Si","Si","Entierro con cal y tierra","Incineraci—n","Si","Si","Si","Si",NA,"0","Si",NA,"5","8","6","Si","0","0","0","0","0","Si"
+"392",73471,0,0,"Rosario",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"393",73497,-105.700394,22.58505,"Escuinapa","0","0","Incineraci—n","Incineraci—n","Si","Si","0","Si","ninguno","0","Si","Siembra de organismos silvestres","20","10","10","0","0","0","Si","Si","0","Si"
+"394",73514,0,0,"Mazatl‡n-San Ignacio","0","0","0","0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"395",73514,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396",73724,0,0,"Escuinapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"397",NA,0,0,"Eldorado","0","0","0","Incineraci—n","Si","0","0","Si","ninguno","0","0","ImportaciÌ_n de reproductores","2","10","19","0","0",NA,"0","Si","Si","Si"
+"398",NA,0,0,"Eldorado",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399",NA,-107.62992,24.52084,"Navolato Sur","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","0",NA,"Si","Si","ImportaciÌ_n de reproductores","11","8","23","Si","Si",NA,"Si","Si","Si","Si"
+"400",NA,-107.68771,24.53611,"Navolato Sur","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si","prod_quim","0","Si","ImportaciÌ_n de reproductores","25","10","21. A–os","Si","Si","Si","Si","Si","Si","Si"
+"401",NA,-107.65211,24.54639,"Navolato Sur","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si",NA,"0","Si",NA,"15","10","15","Si","Si",NA,"Si","Si","Si","Si"
+"402",NA,-107.62478,24.48142,"Navolato Sur","Si","0","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","Si",NA,"0","Si","ImportaciÌ_n de reproductores; Siembra de organismos silvestres","12","8","19","Si","Si","0","Si","Si","Si","Si"
+"403",NA,-107.64541,24.53857,"Navolato Sur","Si","Si","Entierro con cal y tierra","Entierro con cal y tierra","Si","Si","Si","0",NA,"Si","Si","Otros","5","8","8","0","Si","0","Si","Si","Si","Si"
+"404",NA,-107.62139,24.48046,"Navolato Sur","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","filtracion; lag_ox","0","Si","ImportaciÌ_n de reproductores; ImportaciÌ_n de larvas; Siembra de organismos silvestres","16","8","18","Si","Si","0","Si","Si","Si","Si"
+"405",NA,-107.74389,24.56966,"Navolato Sur","Si","Si","Incineraci—n","Incineraci—n","Si","0","Si","Si","filtracion; prod_quim","0","Si","Siembra de organismos silvestres","17","7","17. A–os","Si","Si","0","Si","Si","Si","Si"
+"406",NA,-107.61177,24.61101,"Navolato Sur","Si","0","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","0","filtracion","Si","0","Otros","22","10","10","Si","Si","0","0","0","0","Si"
+"407",NA,-107.58773,24.58162,"Navolato Sur","Si","Si","Entierro sin tratar","Entierro sin tratar","Si","Si","Si","Si","filtracion","0","Si","Otros","5","8","20","0","0","0","Si","Si","Si","Si"
+"408",NA,-106.784025,23.636308,"Mazatl‡n-San Ignacio","0","Si","Entierro sin tratar","Incineraci—n","0","Si","Si","0","ninguno","Si","0","Siembra de organismos silvestres","1","4","20","Si","0","0","0","Si","0","Si"
+"409",NA,0,0,"Mazatl‡n-San Ignacio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
