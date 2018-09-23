@@ -39,7 +39,7 @@ options(encoding="latin1") # read french
 getwd()
 setwd("~/Box Sync/epi 208/for irina")
 #Importind data  set
-Data<- read.csv("data_1.csv",encoding="UTF8towcs")
+Data<- read.csv("/home/tyatabe/Onedrive/Docs/Projects/shrimp/Data/data_1.csv",encoding="UTF8towcs")
 #Changed empty cells and IND to NA so R can understand it 
 Data[Data=="IND"]<-NA
 Data[Data==""]<-NA
@@ -55,7 +55,7 @@ Data.c <- subset(Data, select = c(id,Longitude,Latitude,JLSA,A1,A3,A9,A10,B3,B4,
 #curious to see how many null variables I have
 #Hmisc::describe(Data.c)
 write.csv(Data.c, file = "Data.c_1.csv")
-dc<- read.csv(file="Data.c_1.csv", header=TRUE, sep=",")
+dc<- read.csv(file="/home/tyatabe/Onedrive/Docs/Projects/shrimp/Data/Data.c_1.csv", header=TRUE, sep=",")
 ```
 
 ```{r, echo=T}
@@ -313,6 +313,7 @@ tmp<-as.character(EJs.na$H6)
 tmp[tmp=="Negative"]<-"0"
 tmp[tmp=="Positive"]<-"1"
 EJs.na$H6<-factor(tmp)
+write.csv(EJs.na, '/home/tyatabe/Onedrive/Docs/Projects/shrimp/Code/Bayeshrimp_exploration_files/EJs.csv')
 ```
 
 ```{r positive, fig.width=10, fig.height=10,echo=F}
@@ -399,16 +400,16 @@ start <- c(a = 0, b2 = 0, b3 = 0, b4 = 0, b9 = 0, b5 = 0, bd = 0, ba = 0)
 ########
 EJs.na$ID<- 1:length(EJs.na)
 #Creating the list
-d <- list(H6=EJs.na$H6, n=length(EJs.na$H6),
+d <- list(H6=(as.integer(EJs.na$H6)-1), n=length(EJs.na$H6),
           N_JSLA=length(unique(EJs.na$JLSA)),
-          JSLA=EJs.na$JLSA,
-          I22=EJs.na$I22,
-          I25=EJs.na$I25,
-          D5=EJs.na$D5,
-          I24=EJs.na$I24,
-          A10=EJs.na$A10,
-          A9=EJs.na$A9,
-          B3=EJs.na$B3)
+          JSLA=as.integer(EJs.na$JLSA),
+          I22=as.integer(EJs.na$I22)-1,
+          I25=as.integer(EJs.na$I25)-1,
+          D5=as.integer(EJs.na$D5)-1,
+          I24=as.integer(EJs.na$I24)-1,
+          A10=as.integer(EJs.na$A10)-1,
+          A9=as.integer(EJs.na$A9)-1,
+          B3=as.integer(EJs.na$B3)-1)
 
 # Let's deal with divergent transitions and lack of convergence
 # We need to get to work with stan code here
@@ -466,24 +467,124 @@ H6 ~ binomial_logit( 1 , p );
 generated quantities{
 vector[n] p;
 vector[n] log_lik;
+vector[n] y_sim;
 
 for ( i in 1:n ) {
-p[i] = a + a_JSLA[JSLA[i]]+b2*I22[i]+b5*I25[i]+bd*D5[i]+b4*I24[i]+ba*A10[i]+b9*A9[i]+b3*B3[i];
+p[i] = inv_logit(a + a_JSLA[JSLA[i]]+b2*I22[i]+b5*I25[i]+bd*D5[i]+b4*I24[i]+ba*A10[i]+b9*A9[i]+b3*B3[i]);
 log_lik[i] = binomial_logit_lpmf(H6[i]|1,p[i]);
+y_sim[i] = binomial_rng(1, p[i]);
 }
 
 }
 
 "
+code2 <-"
+data{
+int<lower=1> N;
+int<lower=1> N_sample;
+int<lower=1> N_cage;
+int histo[N];
+real AGD[N];
+real Des[N];
+real cyst[N];
+real PRV[N];
+real pox[N];
+real Ten[N];
+int sample[N];
+int cage[N];
+real Temp[N];
+real time_w[N];
+matrix[N_sample,N_sample] Dmat;
+}
+parameters{
+ordered[3] cutpoints;
+real bt;
+real bwater_t;
+real bagd;
+real bdes;
+real bcyst;
+real bpox;
+real bten;
+real bagd_des;
+real bagd_cyst;
+real bagd_pox;
+real bagd_ten;
+vector[N_sample] a_sample;
+real<lower=0> etasq;
+real<lower=0> rhosq;
+real<lower=0> sigma;
+}
 
+model{
+matrix[N_sample,N_sample] SIGMA_Dmat;
+vector[N] phi;
+sigma ~ cauchy( 0 , 1 );
+rhosq ~ cauchy( 0 , 1 );
+etasq ~ cauchy( 0 , 1 );
+for ( i in 1:(N_sample-1) )
+for ( j in (i+1):N_sample ) {
+SIGMA_Dmat[i,j] = etasq*exp(-rhosq*pow(Dmat[i,j],2));
+SIGMA_Dmat[j,i] = SIGMA_Dmat[i,j];
+}
+for ( k in 1:N_sample )
+SIGMA_Dmat[k,k] = etasq + sigma;
+a_sample ~ multi_normal( rep_vector(0,N_sample) , SIGMA_Dmat );
+cutpoints ~ normal( 0 , 5 );
+bagd_ten ~ normal( 0 , 0.5 );
+bagd_pox ~ normal( 0 , 0.5 );
+bagd_cyst ~ normal( 0 , 0.5 );
+bagd_des ~ normal( 0 , 0.5 );
+bten ~ normal( 0 , 0.5 );
+bpox ~ normal( 0 , 0.5 );
+bcyst ~ normal( 0 , 0.5 );
+bdes ~ normal( 0 , 0.5 );
+bagd ~ normal( 0 , 0.5 );
+bwater_t ~ normal( 0 , 0.5 );
+bt ~ normal( 0 , 0.5 );
+for ( i in 1:N ) {
+phi[i] = bt * Temp[i] + bwater_t * time_w[i] + bagd * AGD[i] 
++ bdes * Des[i] + bcyst * cyst[i] + bpox * pox[i] + bten * Ten[i] 
++ bagd_des * AGD[i] * Des[i] + bagd_cyst * AGD[i] * cyst[i] 
++ bagd_pox * AGD[i] * pox[i] + bagd_ten * AGD[i] * Ten[i] 
++ a_sample[sample[i]];
+}
+for ( i in 1:N )
+histo[i] ~ ordered_logistic( phi[i] , cutpoints );
+}
+generated quantities{
+matrix[N_sample,N_sample] SIGMA_Dmat;
+vector[N] phi;
+real log_lik[N];
+
+for ( i in 1:(N_sample-1) )
+for ( j in (i+1):N_sample ) {
+SIGMA_Dmat[i,j] = etasq*exp(-rhosq*pow(Dmat[i,j],2));
+SIGMA_Dmat[j,i] = SIGMA_Dmat[i,j];
+}
+for ( k in 1:N_sample )
+SIGMA_Dmat[k,k] = etasq + sigma;
+
+for ( i in 1:N ) {
+phi[i] = bt * Temp[i] + bwater_t * time_w[i] + bagd * AGD[i] 
++ bdes * Des[i] + bcyst * cyst[i] + bpox * pox[i] + bten * Ten[i] 
++ bagd_des * AGD[i] * Des[i] + bagd_cyst * AGD[i] * cyst[i] 
++ bagd_pox * AGD[i] * pox[i] + bagd_ten * AGD[i] * Ten[i] 
++ a_sample[sample[i]];
+}
+
+
+for ( i in 1:N )
+log_lik[i] = ordered_logistic_lpmf( histo[i] | phi[i] , cutpoints );
+}
+"
 # Adding variables for stan model
 ```
 
 ```{r Negative, fig.width=10, fig.height=10,echo=F}
 
 options(mc.cores = parallel::detectCores())
-m1.1 <- stan(model_code = code1, data=d, iter=3000, chains=4,cores=4, thin=1,
-             warmup=1000, control = list(adapt_delta = 0.9, stepsize=1))
+m1.1 <- stan(model_code = code1, data=d, iter=3000, chains=4,cores=4,
+             warmup=1000, control = list(adapt_delta = 0.8))
 ```
 
 #Mapping both positive and negative
@@ -497,7 +598,7 @@ traceplot(m1.1, pars=c("b2","b5","bd","b4","ba","b9","b3"))
 library(loo)
 log_lik1.1 <- extract_log_lik(m1.1)
 (m1.1_loo <- loo(log_lik1.1))
-waic(log_lik1.1)
+loo(log_lik1.1)
 ```
 
 ```{r , fig.width=10, fig.height=10,echo=F}
